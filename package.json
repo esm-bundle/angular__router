@@ -1,9 +1,7 @@
 {
-  "name": "@esm-bundle/autopublish-template",
-  "version": "20.0.0",
-  "description": "Repo to test esm-bundle's automatic publishing",
-  "main": "index.js",
-  "module": "esm/index.js",
+  "name": "@esm-bundle/angular__router",
+  "version": "9.1.3",
+  "description": "ESM and SystemJS bundles for @angular/router",
   "type": "module",
   "scripts": {
     "test": "yarn build && concurrently -n w: 'yarn:test:*'",
@@ -27,16 +25,19 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/esm-bundle/autopublish-template.git"
+    "url": "git+https://github.com/esm-bundle/angular__router.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/esm-bundle/autopublish-template/issues"
+    "url": "https://github.com/esm-bundle/angular__router/issues"
   },
-  "homepage": "https://github.com/esm-bundle/autopublish-template#readme",
+  "homepage": "https://github.com/esm-bundle/angular__router#readme",
   "devDependencies": {
-    "autopublish-template": "20.0.0",
-    "esm-bundle-scripts": "1.2.0"
+    "@angular/common": "npm:@esm-bundle/angular__common@9.1.3-fix.0",
+    "@angular/core": "npm:@esm-bundle/angular__core@9.1.3-fix.0",
+    "@angular/router": "^9.1.3",
+    "esm-bundle-scripts": "1.2.0",
+    "rxjs": "npm:@esm-bundle/rxjs@6.5.5-fix.1"
   }
 }

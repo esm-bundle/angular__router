@@ -2,6 +2,21 @@
 # yarn lockfile v1
 
 
+"@angular/common@npm:@esm-bundle/angular__common@9.1.3-fix.0":
+  version "9.1.3-fix.0"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/angular__common/-/angular__common-9.1.3-fix.0.tgz#4c20bfeb79975aa4c4e793c783bc50c09b81aee4"
+  integrity sha512-gH+6QjUm1+qh6xgSm2P/T2HuryA4MGidjTgzuFHdUXO45ZANJRKe69z8/Lu2n58hEs1qvpi6pDPMXIBDUYTmqg==
+
+"@angular/core@npm:@esm-bundle/angular__core@9.1.3-fix.0":
+  version "9.1.3-fix.0"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/angular__core/-/angular__core-9.1.3-fix.0.tgz#c379faca64b619b3f2279cdab6df439ef8c45a48"
+  integrity sha512-/5/RJoydgVwe7v7Fpz7NNhUFNB5oPDfzRv1rtz07oG3A3STGEm6Q9rncTGa6WbAM9lwnaYdx9FrtkhIpB1LGRg==
+
+"@angular/router@^9.1.3":
+  version "9.1.3"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-9.1.3.tgz#fa11e8c1e1786c13dd8f390d02c53b71f93c3937"
+  integrity sha512-NmOazeJ2WVT5eTyNHXYxBRAHic6i6Ku5DgsGWBgjUIR/Qmwb/i/xpagbA9WQQZ2OrGbp4ICEYgGkikeIrlQLPA==
+
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5", "@babel/code-frame@^7.8.3":
   version "7.8.3"
   resolved "https://registry.yarnpkg.com/@babel/code-frame/-/code-frame-7.8.3.tgz#33e25903d7481181534e12ec0a25f16b6fcf419e"
@@ -995,11 +1010,6 @@ atob@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/atob/-/atob-2.1.2.tgz#6d9517eb9e030d2436666651e86bd9f6f13533c9"
   integrity sha512-Wm6ukoaOGJi/73p/cl2GvLjTI5JM1k/O14isD73YML8StrH/7/lRFgmg8nICZgD3bZZvjwCGxtMOD3wWNAu8cg==
-
-autopublish-template@20.0.0:
-  version "20.0.0"
-  resolved "https://registry.yarnpkg.com/autopublish-template/-/autopublish-template-20.0.0.tgz#aec377281398793f38a553e0c9277b0e65edba2a"
-  integrity sha512-OXzSKHdY8zu1VxGm3ibWtiX2FcQYi2mge9pECwnLN0MJAWfy60UNZfAosvJZ35CxV2V6cjcdqgVYzUIVHtFypA==
 
 aws-sign2@~0.7.0:
   version "0.7.0"
@@ -4987,6 +4997,11 @@ rxjs@^6.5.2, rxjs@^6.5.3:
   integrity sha512-WfQI+1gohdf0Dai/Bbmk5L5ItH5tYqm3ki2c5GdWhKjalzjg93N3avFjVStyZZz+A2Em+ZxKH5bNghw9UeylGQ==
   dependencies:
     tslib "^1.9.0"
+
+"rxjs@npm:@esm-bundle/rxjs@6.5.5-fix.1":
+  version "6.5.5-fix.1"
+  resolved "https://registry.yarnpkg.com/@esm-bundle/rxjs/-/rxjs-6.5.5-fix.1.tgz#af732eee1981c8cdf45eb601c6bc3c1791349b15"
+  integrity sha512-qJI7Zay8Rd+efTa0xGuk2VNN6wgyjPktCAY7M1WmsRQoyw0Tt22vI/D/P67dX+HAUsAP3HeG8Cn/KNuSF7TivQ==
 
 safe-buffer@^5.0.1, safe-buffer@^5.1.2:
   version "5.2.0"
