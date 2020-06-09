@@ -12,10 +12,10 @@
   resolved "https://registry.yarnpkg.com/@esm-bundle/angular__core/-/angular__core-9.1.3-fix.0.tgz#c379faca64b619b3f2279cdab6df439ef8c45a48"
   integrity sha512-/5/RJoydgVwe7v7Fpz7NNhUFNB5oPDfzRv1rtz07oG3A3STGEm6Q9rncTGa6WbAM9lwnaYdx9FrtkhIpB1LGRg==
 
-"@angular/router@9.1.9":
-  version "9.1.9"
-  resolved "https://registry.yarnpkg.com/@angular/router/-/router-9.1.9.tgz#5d79d72cb62ea1c04ea70238846653ecf9c4a73c"
-  integrity sha512-4u+CWMPB4hCkAsFCEzC94YEWT0wVozqGkc/Dortt2hFaqvZpIegg6iJVZlDxuyDjzFYBPnnbTDdgiTTA8ckfuA==
+"@angular/router@9.1.10":
+  version "9.1.10"
+  resolved "https://registry.yarnpkg.com/@angular/router/-/router-9.1.10.tgz#e0e9c5b1c35c9ab9b843c478c3cec038a0d15e19"
+  integrity sha512-nvMSzgmsjyj+vzw0meHpN1lea7kf106ml+g97RgxiOgHAtBUnuuedXpBKrajK2kA2m9QbwQvIaKrxkdBzyLuSw==
 
 "@babel/code-frame@^7.0.0", "@babel/code-frame@^7.5.5", "@babel/code-frame@^7.8.3":
   version "7.8.3"
