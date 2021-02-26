@@ -1,9 +1,9 @@
 devDependencies:
   '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
-  '@angular/compiler': 11.2.0
-  '@angular/compiler-cli': 11.2.0_76e9c380e6ad5966e08dbe567ecd27ed
+  '@angular/compiler': 11.2.3
+  '@angular/compiler-cli': 11.2.3_a1c5ea63d345fd51dc6179e2e0056b86
   '@angular/core': 11.1.1_rxjs@6.6.3
-  '@angular/router': 11.2.0_60acb67a48684576889a692cf0aef38d
+  '@angular/router': 11.2.3_60acb67a48684576889a692cf0aef38d
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 5.1.1
@@ -33,9 +33,9 @@ packages:
       rxjs: ^6.5.3
     resolution:
       integrity: sha512-YHAmbjmwqIv43CdzRJkXJiT7p6Xm6DpsGKLuCGPoomUk7Nf5U5LsSZm/uvyTu0O+OQp2RUFUdGqW5DzSZZnKtQ==
-  /@angular/compiler-cli/11.2.0_76e9c380e6ad5966e08dbe567ecd27ed:
+  /@angular/compiler-cli/11.2.3_a1c5ea63d345fd51dc6179e2e0056b86:
     dependencies:
-      '@angular/compiler': 11.2.0
+      '@angular/compiler': 11.2.3
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
@@ -57,16 +57,16 @@ packages:
       node: '>=10.0'
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.2.0
+      '@angular/compiler': 11.2.3
       typescript: '>=4.0 <4.2'
     resolution:
-      integrity: sha512-FJ8OHWBQftmncDGV43ASFeCu3cW1W2P5fvub9fiBFEeTIkB/HXrMOMCQg/1XSdfA5kwFzj2NedMp573X9kq6ng==
-  /@angular/compiler/11.2.0:
+      integrity: sha512-ObQVI6q2c0VTWbsDnWJDdUZv2Jz/u1jiQNcrdtu/rjtJARaldEno9dMakN838Q6Nw4FzKUO6uYZXmnvKCUjfxQ==
+  /@angular/compiler/11.2.3:
     dependencies:
       tslib: 2.1.0
     dev: true
     resolution:
-      integrity: sha512-EW6LM/kUYhQkuFqGt03c/eRKZAYr0LLEdMOn//j1uIh+wSq9KLffBGpky6b63xdfWxsXi8OucXUOydTQBckNEQ==
+      integrity: sha512-De8BwtSwPVYGdvQa6CDq2C1SLmB78YjS0t/KNlvfp85cl4Gb3BdjTDsKMkJXkm/3ubnIXi1BaRIsFNVTCCF70Q==
   /@angular/core/11.1.1_rxjs@6.6.3:
     dependencies:
       rxjs: 6.6.3
@@ -77,7 +77,7 @@ packages:
       zone.js: ^0.10.2 || ^0.11.3
     resolution:
       integrity: sha512-yBBLekXeDviZ+KW3DmGeOK0CK/yQ9gCy2uHY47KUDI4UTRRLz0NI5nS9NdKwk5bpCPId6ZPNsJtHPBFXRhAnNA==
-  /@angular/router/11.2.0_60acb67a48684576889a692cf0aef38d:
+  /@angular/router/11.2.3_60acb67a48684576889a692cf0aef38d:
     dependencies:
       '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
       '@angular/core': 11.1.1_rxjs@6.6.3
@@ -85,12 +85,12 @@ packages:
       tslib: 2.1.0
     dev: true
     peerDependencies:
-      '@angular/common': 11.2.0
-      '@angular/core': 11.2.0
-      '@angular/platform-browser': 11.2.0
+      '@angular/common': 11.2.3
+      '@angular/core': 11.2.3
+      '@angular/platform-browser': 11.2.3
       rxjs: ^6.5.3
     resolution:
-      integrity: sha512-Gw08D6W4SGEIgm5zKdGs1yCW7FnwYjF8cycWczrpU8fmZh+WLbIjPAy/blI/nByCDU9BGyZ7cWGOiQJHEnzWmg==
+      integrity: sha512-lRuEIlNj2BcBZ17mt5SZY7v80PsvlS4J6EbKSOFeSYhALM/AQnaaCdrrMlQ1WyEa5bBUabxGT9/zvahBosy2yA==
   /@babel/code-frame/7.12.11:
     dependencies:
       '@babel/highlight': 7.10.4
@@ -7343,10 +7343,10 @@ packages:
       integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==
 specifiers:
   '@angular/common': ^11.1.1
-  '@angular/compiler': 11.2.0
-  '@angular/compiler-cli': 11.2.0
+  '@angular/compiler': 11.2.3
+  '@angular/compiler-cli': 11.2.3
   '@angular/core': ^11.1.1
-  '@angular/router': 11.2.0
+  '@angular/router': 11.2.3
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 5.1.1
