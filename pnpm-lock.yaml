@@ -1,7 +1,7 @@
 devDependencies:
   '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
   '@angular/compiler': 11.2.4
-  '@angular/compiler-cli': 11.2.4_6e4452c8b1caabc174fc2f343c84b8af
+  '@angular/compiler-cli': 11.2.4_fe82edb5e3b9e244d946ae16e8eba6ec
   '@angular/core': 11.1.1_rxjs@6.6.3
   '@angular/router': 11.2.4_60acb67a48684576889a692cf0aef38d
   concurrently: 5.3.0
@@ -19,7 +19,7 @@ devDependencies:
   rollup: 2.39.0
   rollup-plugin-terser: 7.0.2_rollup@2.39.0
   rxjs: 6.6.3
-  typescript: 4.1.5
+  typescript: 4.2.3
 lockfileVersion: 5.2
 packages:
   /@angular/common/11.1.1_@angular+core@11.1.1+rxjs@6.6.3:
@@ -33,7 +33,7 @@ packages:
       rxjs: ^6.5.3
     resolution:
       integrity: sha512-YHAmbjmwqIv43CdzRJkXJiT7p6Xm6DpsGKLuCGPoomUk7Nf5U5LsSZm/uvyTu0O+OQp2RUFUdGqW5DzSZZnKtQ==
-  /@angular/compiler-cli/11.2.4_6e4452c8b1caabc174fc2f343c84b8af:
+  /@angular/compiler-cli/11.2.4_fe82edb5e3b9e244d946ae16e8eba6ec:
     dependencies:
       '@angular/compiler': 11.2.4
       '@babel/core': 7.12.10
@@ -50,7 +50,7 @@ packages:
       source-map: 0.6.1
       sourcemap-codec: 1.4.8
       tslib: 2.1.0
-      typescript: 4.1.5
+      typescript: 4.2.3
       yargs: 16.2.0
     dev: true
     engines:
@@ -6840,13 +6840,13 @@ packages:
     dev: true
     resolution:
       integrity: sha512-zdu8XMNEDepKKR+XYOXAVPtWui0ly0NtohUscw+UmaHiAWT8hrV1rr//H6V+0DvJ3OQ19S979M0laLfX8rm82Q==
-  /typescript/4.1.5:
+  /typescript/4.2.3:
     dev: true
     engines:
       node: '>=4.2.0'
     hasBin: true
     resolution:
-      integrity: sha512-6OSu9PTIzmn9TCDiovULTnET6BgXtDYL4Gg4szY+cGsc3JP1dQL8qvE8kShTRx1NIw4Q9IBHlwODjkjWEtMUyA==
+      integrity: sha512-qOcYwxaByStAWrBf4x0fibwZvMRG+r4cQoTjbPtUlrWjBHbmCAww1i448U0GJ+3cNNEtebDteo/cHOR3xJ4wEw==
   /ua-parser-js/0.7.22:
     dev: true
     resolution:
@@ -7362,4 +7362,4 @@ specifiers:
   rollup: 2.39.0
   rollup-plugin-terser: 7.0.2
   rxjs: ^6.6.3
-  typescript: 4.1.5
+  typescript: 4.2.3
