@@ -2,10 +2,10 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular/common': ^11.1.1
-  '@angular/compiler': 11.2.13
-  '@angular/compiler-cli': 11.2.13
+  '@angular/compiler': 12.0.0
+  '@angular/compiler-cli': 12.0.0
   '@angular/core': ^11.1.1
-  '@angular/router': 11.2.13
+  '@angular/router': 12.0.0
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
@@ -25,10 +25,10 @@ specifiers:
 
 devDependencies:
   '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
-  '@angular/compiler': 11.2.13
-  '@angular/compiler-cli': 11.2.13_9cee8bdf79289f59da5edd9dc7ea4666
+  '@angular/compiler': 12.0.0
+  '@angular/compiler-cli': 12.0.0_243ebb43ae825d2639ad0d1394dfea98
   '@angular/core': 11.1.1_rxjs@6.6.3
-  '@angular/router': 11.2.13_60acb67a48684576889a692cf0aef38d
+  '@angular/router': 12.0.0_60acb67a48684576889a692cf0aef38d
   concurrently: 5.3.0
   esm-bundle-scripts: 1.2.0
   husky: 6.0.0
@@ -59,26 +59,25 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/compiler-cli/11.2.13_9cee8bdf79289f59da5edd9dc7ea4666:
-    resolution: {integrity: sha512-AaIip0gdeNTcXAhxsGAudybdmaSwQ0BoxsdPIZRb9jokHAP4pCKx9aFJFbvTHB99kbKV7zEmGMCbsoRkRhxnJw==}
-    engines: {node: '>=10.0'}
+  /@angular/compiler-cli/12.0.0_243ebb43ae825d2639ad0d1394dfea98:
+    resolution: {integrity: sha512-6cBocQd/Umi8gVI6Jo8VsyvHuRjDO4TrFFUkbVwNAG9FacXEFP0zYABT5ywe2lVkUxs5e8WyDqvDf7fxr7CI4Q==}
+    engines: {node: ^12.14.1 || ^14.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 11.2.13
-      typescript: '>=4.0 <4.2'
+      '@angular/compiler': 12.0.0
+      typescript: '>=4.2.3 <4.3'
     dependencies:
-      '@angular/compiler': 11.2.13
+      '@angular/compiler': 12.0.0
       '@babel/core': 7.12.10
       '@babel/types': 7.12.12
       canonical-path: 1.0.0
       chokidar: 3.5.1
       convert-source-map: 1.7.0
-      dependency-graph: 0.7.2
-      fs-extra: 4.0.2
+      dependency-graph: 0.11.0
       magic-string: 0.25.7
       minimist: 1.2.5
       reflect-metadata: 0.1.13
-      semver: 6.3.0
+      semver: 7.3.5
       source-map: 0.6.1
       sourcemap-codec: 1.4.8
       tslib: 2.1.0
@@ -88,8 +87,9 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/11.2.13:
-    resolution: {integrity: sha512-HI7gfVozFW/rQoab0zVyYpU8PRHNWMk+pLc+q3ukVuByCmnBZ6kTAEQX2jnXVY8QGMmdptBgrsW/OsFaws98Zw==}
+  /@angular/compiler/12.0.0:
+    resolution: {integrity: sha512-7NdZNyxm9KLlRMmmtId6RfV6VbQIUMDxN44R+ax66BoWsuhdYXUDsDO554LwYwrjnnXXGkurDJhv7umeRwaZGw==}
+    engines: {node: ^12.14.1 || ^14.0.0}
     dependencies:
       tslib: 2.1.0
     dev: true
@@ -104,12 +104,13 @@ packages:
       tslib: 2.1.0
     dev: true
 
-  /@angular/router/11.2.13_60acb67a48684576889a692cf0aef38d:
-    resolution: {integrity: sha512-Fae/ViC4Ho2rGF5wQLrnJcucuhVGx29QqZs2K0C6sj4UUNRUzYWZknnGWqRj3Z9ft7XIi38Q2yCkSc76iS1aqQ==}
+  /@angular/router/12.0.0_60acb67a48684576889a692cf0aef38d:
+    resolution: {integrity: sha512-n5YHa24NgiRttAfMOzSa/H+nbx8j8c+2f1HgyrOftxoExH1FPTRnKd/mJ32A6iies8glOj9ImQBO/91C0yaQeA==}
+    engines: {node: ^12.14.1 || ^14.0.0}
     peerDependencies:
-      '@angular/common': 11.2.13
-      '@angular/core': 11.2.13
-      '@angular/platform-browser': 11.2.13
+      '@angular/common': 12.0.0
+      '@angular/core': 12.0.0
+      '@angular/platform-browser': 12.0.0
       rxjs: ^6.5.3
     dependencies:
       '@angular/common': 11.1.1_@angular+core@11.1.1+rxjs@6.6.3
@@ -2048,8 +2049,8 @@ packages:
     engines: {node: '>= 0.6'}
     dev: true
 
-  /dependency-graph/0.7.2:
-    resolution: {integrity: sha512-KqtH4/EZdtdfWX0p6MGP9jljvxSY6msy/pRUD4jgNwVpv3v1QmNLlsB3LDSSUg79BRVSn7jI1QPRtArGABovAQ==}
+  /dependency-graph/0.11.0:
+    resolution: {integrity: sha512-JeMq7fEshyepOWDfcfHK06N3MhyPhz++vtqWhMT5O9A3K42rdsEDpfdVqjaqaAhsw6a+ZqeDvQVtD0hFHQWrzg==}
     engines: {node: '>= 0.6.0'}
     dev: true
 
@@ -2701,14 +2702,6 @@ packages:
 
   /fromentries/1.3.2:
     resolution: {integrity: sha512-cHEpEQHUg0f8XdtZCc2ZAhrHzKzT0MrFUTcvx+hfxYu7rGMDc5SKoXFh+n4YigxsHXRzc6OrCshdR1bWH6HHyg==}
-    dev: true
-
-  /fs-extra/4.0.2:
-    resolution: {integrity: sha1-+RcExT0bRh+JNFKwwwfZmXZHq2s=}
-    dependencies:
-      graceful-fs: 4.2.4
-      jsonfile: 4.0.0
-      universalify: 0.1.2
     dev: true
 
   /fs-extra/8.1.0:
@@ -6918,11 +6911,6 @@ packages:
     engines: {node: '>=10'}
     dev: true
 
-  /yargs-parser/20.2.4:
-    resolution: {integrity: sha512-WOkpgNhPTlE73h4VFAFsOnomJVaovO8VqLDzy5saChRBFQFBoMYirowyW+Q9HB4HFF4Z7VZTiG3iSzJJA29yRA==}
-    engines: {node: '>=10'}
-    dev: true
-
   /yargs-parser/20.2.7:
     resolution: {integrity: sha512-FiNkvbeHzB/syOjIUxFDCnhSfzAL8R5vs40MgLFBorXACCOAEaWu0gRZl14vG8MR9AOJIZbmkjhusqBYZ3HTHw==}
     engines: {node: '>=10'}
@@ -6979,7 +6967,7 @@ packages:
       require-directory: 2.1.1
       string-width: 4.2.0
       y18n: 5.0.5
-      yargs-parser: 20.2.4
+      yargs-parser: 20.2.7
     dev: true
 
   /yeast/0.1.2:
