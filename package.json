@@ -4,7 +4,16 @@
   "description": "ESM and SystemJS bundles for @angular/router",
   "type": "module",
   "exports": {
-    ".": "./es2015/ivy/angular-router.min.js"
+    ".": {
+      "es2015": "./es2015/ivy/angular-router.js",
+      "es2020": "./es2020/ivy/angular-router.js",
+      "default": "./es2020/ivy/angular-router.js"
+    },
+    "./upgrade": {
+      "es2015": "./es2015/ivy/angular-upgrade.js",
+      "es2020": "./es2020/ivy/angular-upgrade.js",
+      "default": "./es2020/ivy/angular-upgrade.js"
+    }
   },
   "scripts": {
     "test": "pnpm run build && concurrently -n w: 'pnpm:test:*'",
@@ -15,7 +24,7 @@
     "format": "prettier --write .",
     "release": "release-it",
     "prepublishOnly": "pnpm run build",
-    "postinstall": "ngcc --no-tsconfig --target @angular/router --properties es2015 --first-only",
+    "postinstall": "husky install",
     "postpublish": "pinst --enable"
   },
   "files": [
@@ -33,11 +42,13 @@
   },
   "homepage": "https://github.com/esm-bundle/angular__router#readme",
   "devDependencies": {
-    "@angular/common": "^11.1.1",
-    "@angular/compiler": "12.2.16",
-    "@angular/compiler-cli": "12.2.16",
-    "@angular/core": "^11.1.1",
-    "@angular/router": "12.2.16",
+    "@angular/common": "13.3.1",
+    "@angular/compiler": "13.3.1",
+    "@angular/compiler-cli": "13.3.1",
+    "@angular/core": "13.3.1",
+    "@angular/router": "13.3.1",
+    "@angular/upgrade": "13.3.1",
+    "@rollup/plugin-babel": "5.3.1",
     "concurrently": "7.0.0",
     "esm-bundle-scripts": "1.2.0",
     "husky": "7.0.4",
@@ -52,7 +63,7 @@
     "rimraf": "3.0.2",
     "rollup": "2.70.1",
     "rollup-plugin-terser": "7.0.2",
-    "rxjs": "^6.6.3",
+    "rxjs": "7.5.5",
     "typescript": "4.6.3"
   }
 }
