@@ -8,7 +8,7 @@ specifiers:
   '@angular/router': 13.3.1
   '@angular/upgrade': 13.3.1
   '@rollup/plugin-babel': 5.3.1
-  concurrently: 7.0.0
+  concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.17
@@ -33,7 +33,7 @@ devDependencies:
   '@angular/router': 13.3.1_5b05562fb147aced1f413b82ad7dadf4
   '@angular/upgrade': 13.3.1_9c5a69cc389d65326d14099f3132002f
   '@rollup/plugin-babel': 5.3.1_rollup@2.70.1
-  concurrently: 7.0.0
+  concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
   husky: 7.0.4
   karma: 6.3.17
@@ -2039,8 +2039,8 @@ packages:
       yargs: 13.3.2
     dev: true
 
-  /concurrently/7.0.0:
-    resolution: {integrity: sha512-WKM7PUsI8wyXpF80H+zjHP32fsgsHNQfPLw/e70Z5dYkV7hF+rf8q3D+ScWJIEr57CpkO3OWBko6hwhQLPR8Pw==}
+  /concurrently/7.1.0:
+    resolution: {integrity: sha512-Bz0tMlYKZRUDqJlNiF/OImojMB9ruKUz6GCfmhFnSapXgPe+3xzY4byqoKG9tUZ7L2PGEUjfLPOLfIX3labnmw==}
     engines: {node: ^12.20.0 || ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
