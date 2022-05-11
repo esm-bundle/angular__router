@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular/common': 13.3.1
-  '@angular/compiler': 13.3.5
-  '@angular/compiler-cli': 13.3.5
+  '@angular/compiler': 13.3.7
+  '@angular/compiler-cli': 13.3.7
   '@angular/core': 13.3.1
-  '@angular/router': 13.3.5
-  '@angular/upgrade': 13.3.5
+  '@angular/router': 13.3.7
+  '@angular/upgrade': 13.3.7
   '@rollup/plugin-babel': 5.3.1
   concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
@@ -27,11 +27,11 @@ specifiers:
 
 devDependencies:
   '@angular/common': 13.3.1_@angular+core@13.3.1+rxjs@7.5.5
-  '@angular/compiler': 13.3.5
-  '@angular/compiler-cli': 13.3.5_b07c62e2cc9b87cabff59ee153cd6f69
+  '@angular/compiler': 13.3.7
+  '@angular/compiler-cli': 13.3.7_43b3a48857112947fff968eec096951b
   '@angular/core': 13.3.1_rxjs@7.5.5
-  '@angular/router': 13.3.5_5b05562fb147aced1f413b82ad7dadf4
-  '@angular/upgrade': 13.3.5_ae8fcb23b4807c4a9db6a8355ef8198d
+  '@angular/router': 13.3.7_5b05562fb147aced1f413b82ad7dadf4
+  '@angular/upgrade': 13.3.7_8ab19ae57fefd89a9594e3da1eb04827
   '@rollup/plugin-babel': 5.3.1_rollup@2.72.1
   concurrently: 7.1.0
   esm-bundle-scripts: 1.2.0
@@ -71,22 +71,22 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/compiler-cli/13.3.5_b07c62e2cc9b87cabff59ee153cd6f69:
-    resolution: {integrity: sha512-H7A+MZcbB4g5fa6O4giYgrCG1h5whJfIxr4txDtDfolygzwRzqH1PSMfjW/jYyIpaH6XqXMSDHvbXRFGKstboA==}
+  /@angular/compiler-cli/13.3.7_43b3a48857112947fff968eec096951b:
+    resolution: {integrity: sha512-Flr8uvdMx/PrCXsGCBOTEpDW1zF589xAcioT1ittcAPDGsbuXvqeE6Gk/otwcl6JCjYEHmWcxtgspWxgmLFgYg==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       typescript: '>=4.4.2 <4.7'
     dependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       '@babel/core': 7.17.8
       chokidar: 3.5.1
       convert-source-map: 1.7.0
       dependency-graph: 0.11.0
       magic-string: 0.26.1
       reflect-metadata: 0.1.13
-      semver: 7.3.6
+      semver: 7.3.7
       sourcemap-codec: 1.4.8
       tslib: 2.3.0
       typescript: 4.6.4
@@ -95,8 +95,8 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/13.3.5:
-    resolution: {integrity: sha512-iSQlYevMk5glwZSXTXf2GytykqZWdK3Rr8heIvEPqd8n88MSB3w1KnDc1fnHLF950q/nUR9K+3r4wWPwc8J2IQ==}
+  /@angular/compiler/13.3.7:
+    resolution: {integrity: sha512-840eWcLrWnrk2JP1VOdWWCampd2wRU5eyVLK5Ksv9tqw8WqBW/+kDgen9ubPpohQRpro92l6xStcBRYLhXDTZQ==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     dependencies:
       tslib: 2.3.0
@@ -113,13 +113,13 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/router/13.3.5_5b05562fb147aced1f413b82ad7dadf4:
-    resolution: {integrity: sha512-3yUNyBpUi0KUKP91a3dVQsr9Jfjs4wGxpiFYb3apc7lKT5R1LJqt2O0EchjOgvFyJ6TDOemdCAzKgvSRkDxpMw==}
+  /@angular/router/13.3.7_5b05562fb147aced1f413b82ad7dadf4:
+    resolution: {integrity: sha512-Im2xPKpCDSQLNB1cxYXCq8ffdTMY4teSfPQWWesguCEU1R6OLeTPJ8K1PbX5LSSvs4rDU8ZQdeglnrGGs8qeuw==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/common': 13.3.5
-      '@angular/core': 13.3.5
-      '@angular/platform-browser': 13.3.5
+      '@angular/common': 13.3.7
+      '@angular/core': 13.3.7
+      '@angular/platform-browser': 13.3.7
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 13.3.1_@angular+core@13.3.1+rxjs@7.5.5
@@ -128,16 +128,16 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/upgrade/13.3.5_ae8fcb23b4807c4a9db6a8355ef8198d:
-    resolution: {integrity: sha512-GKiTOuvyakAU22jLKwb5m/ih62KZrucWm/9YmlgvH2/Q2YeiOQrBJaMVi1GatWtKkBbRECn42AcpsKHdOhCkpQ==}
+  /@angular/upgrade/13.3.7_8ab19ae57fefd89a9594e3da1eb04827:
+    resolution: {integrity: sha512-6zIZiyCMFnuS4tGYxITaWgIXIpw/kcwrdpUq7lplYAJHkP6bg8oHXY6Vh24v34I/oe09k1nfxN4o30TK8t0x2Q==}
     engines: {node: ^12.20.0 || ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/compiler': 13.3.5
-      '@angular/core': 13.3.5
-      '@angular/platform-browser': 13.3.5
-      '@angular/platform-browser-dynamic': 13.3.5
+      '@angular/compiler': 13.3.7
+      '@angular/core': 13.3.7
+      '@angular/platform-browser': 13.3.7
+      '@angular/platform-browser-dynamic': 13.3.7
     dependencies:
-      '@angular/compiler': 13.3.5
+      '@angular/compiler': 13.3.7
       '@angular/core': 13.3.1_rxjs@7.5.5
       tslib: 2.3.0
     dev: true
@@ -1797,7 +1797,7 @@ packages:
     dependencies:
       anymatch: 3.1.1
       braces: 3.0.2
-      glob-parent: 5.1.1
+      glob-parent: 5.1.2
       is-binary-path: 2.1.0
       is-glob: 4.0.1
       normalize-path: 3.0.0
@@ -3199,13 +3199,6 @@ packages:
     resolution: {integrity: sha512-WWUxvJs5HsyHL6L08wOusa/IXYtMuCAhrMmnTjQPpBU0TTHyDhnOATNH3xNQz7YOQUsqIIPTGr4xiVti1Hsk5g==}
     dependencies:
       git-up: 4.0.2
-    dev: true
-
-  /glob-parent/5.1.1:
-    resolution: {integrity: sha512-FnI+VGOpnlGHWZxthPGR+QhR78fuiK0sNLkHQv+bL9fQi57lNNdquIbna/WrfROrolq8GK5Ek6BiMwqL/voRYQ==}
-    engines: {node: '>= 6'}
-    dependencies:
-      is-glob: 4.0.1
     dev: true
 
   /glob-parent/5.1.2:
@@ -5015,12 +5008,6 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /lru-cache/7.8.0:
-    resolution: {integrity: sha512-AmXqneQZL3KZMIgBpaPTeI6pfwh+xQ2vutMsyqOu1TBdEXFZgpG/80wuJ531w2ZN7TI0/oc8CPxzh/DKQudZqg==}
-    engines: {node: '>=12'}
-    deprecated: Please update to latest patch version to fix memory leak https://github.com/isaacs/node-lru-cache/issues/227
-    dev: true
-
   /macos-release/2.5.0:
     resolution: {integrity: sha512-EIgv+QZ9r+814gjJj0Bt5vSLJLzswGmSUbUpbi9AIr/fsN2IWFBl2NucV9PAiek+U1STK468tEkxmVYUtuAN3g==}
     engines: {node: '>=6'}
@@ -6573,14 +6560,6 @@ packages:
     resolution: {integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==}
     engines: {node: '>=10'}
     hasBin: true
-    dev: true
-
-  /semver/7.3.6:
-    resolution: {integrity: sha512-HZWqcgwLsjaX1HBD31msI/rXktuIhS+lWvdE4kN9z+8IVT4Itc7vqU2WvYsyD6/sjYCt4dEKH/m1M3dwI9CC5w==}
-    engines: {node: ^10.0.0 || ^12.0.0 || ^14.0.0 || >=16.0.0}
-    hasBin: true
-    dependencies:
-      lru-cache: 7.8.0
     dev: true
 
   /semver/7.3.7:
