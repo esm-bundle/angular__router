@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular/common': 13.3.1
-  '@angular/compiler': 14.0.2
-  '@angular/compiler-cli': 14.0.2
+  '@angular/compiler': 14.0.4
+  '@angular/compiler-cli': 14.0.4
   '@angular/core': 13.3.1
-  '@angular/router': 14.0.2
-  '@angular/upgrade': 14.0.2
+  '@angular/router': 14.0.4
+  '@angular/upgrade': 14.0.4
   '@rollup/plugin-babel': 5.3.1
   concurrently: 7.2.2
   esm-bundle-scripts: 1.2.0
@@ -27,11 +27,11 @@ specifiers:
 
 devDependencies:
   '@angular/common': 13.3.1_@angular+core@13.3.1+rxjs@7.5.5
-  '@angular/compiler': 14.0.2_@angular+core@13.3.1
-  '@angular/compiler-cli': 14.0.2_a9afb7042dc1d087e08874ec39f6b75c
+  '@angular/compiler': 14.0.4_@angular+core@13.3.1
+  '@angular/compiler-cli': 14.0.4_78bc04e247af5d9836929e06be844cbf
   '@angular/core': 13.3.1_rxjs@7.5.5
-  '@angular/router': 14.0.2_5b05562fb147aced1f413b82ad7dadf4
-  '@angular/upgrade': 14.0.2_31f0da248d194e40761e041f23accca5
+  '@angular/router': 14.0.4_5b05562fb147aced1f413b82ad7dadf4
+  '@angular/upgrade': 14.0.4_105a8aeca0e06b08e76468b8247e5b00
   '@rollup/plugin-babel': 5.3.1_rollup@2.75.7
   concurrently: 7.2.2
   esm-bundle-scripts: 1.2.0
@@ -71,15 +71,15 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/compiler-cli/14.0.2_a9afb7042dc1d087e08874ec39f6b75c:
-    resolution: {integrity: sha512-S5vT6k0FF/rC8n1AnWaA1HMBr1/9TSxsOXNB0eSwjRATZ9SIe2oWmt9m7CmHltXYLbGIshy482H6sGs2Usu6+A==}
+  /@angular/compiler-cli/14.0.4_78bc04e247af5d9836929e06be844cbf:
+    resolution: {integrity: sha512-j3T0dOwNov6rKcaxLMSlPLRvrBT6MyBTum18x6XvZRqb75RUAJ/yV+PXgtA//XZ2hjuy87+CvZy3tBKktvY7bA==}
     engines: {node: ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 14.0.2
+      '@angular/compiler': 14.0.4
       typescript: '>=4.6.2 <4.8'
     dependencies:
-      '@angular/compiler': 14.0.2_@angular+core@13.3.1
+      '@angular/compiler': 14.0.4_@angular+core@13.3.1
       '@babel/core': 7.17.8
       chokidar: 3.5.1
       convert-source-map: 1.7.0
@@ -95,11 +95,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/14.0.2_@angular+core@13.3.1:
-    resolution: {integrity: sha512-d2YS0h51DbodTWbXRwBrF7Jn8SX3FggITlLj4kan7oDvCpNRp+pKv6NifU2EZKOBUKYc3o6FBxj1oNbnqK/7cg==}
+  /@angular/compiler/14.0.4_@angular+core@13.3.1:
+    resolution: {integrity: sha512-WdRpZFTX2vt71sSfQ89C1K5l2zhYtn8ON+ZlAVxyZ5uT0nA/Z/vuMLfNZB1WmcGVDOc7JmQduSiSaI0hhQqXqw==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/core': 14.0.2
+      '@angular/core': 14.0.4
     peerDependenciesMeta:
       '@angular/core':
         optional: true
@@ -119,13 +119,13 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/router/14.0.2_5b05562fb147aced1f413b82ad7dadf4:
-    resolution: {integrity: sha512-moh7IPGk7tpcNGx5xN9q+zNMG6ZqXVD607Q3qUCBcvK13NtgZ9aMXpKtkVOGXLJNdMVgHaeV56+q96cw77WtAA==}
+  /@angular/router/14.0.4_5b05562fb147aced1f413b82ad7dadf4:
+    resolution: {integrity: sha512-aqtOjIjVNtWbpedDdni0yGfGR6sEb8S3jJB9jf43ththmHKxAlW7PKP2NgEmx0uJ2xY2iGET7Gkpl8RBwvoHgQ==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/common': 14.0.2
-      '@angular/core': 14.0.2
-      '@angular/platform-browser': 14.0.2
+      '@angular/common': 14.0.4
+      '@angular/core': 14.0.4
+      '@angular/platform-browser': 14.0.4
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 13.3.1_@angular+core@13.3.1+rxjs@7.5.5
@@ -134,16 +134,16 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/upgrade/14.0.2_31f0da248d194e40761e041f23accca5:
-    resolution: {integrity: sha512-5RjVyM0P2Ziw+n0pAmmP+pzPT/ZUt+urCKtgezAw5rRYcbuAknCbV+erkw+Barus+Sr2VJaMj4uIIMaM3ZxK8w==}
+  /@angular/upgrade/14.0.4_105a8aeca0e06b08e76468b8247e5b00:
+    resolution: {integrity: sha512-b83mK92+l0RMudWc1vWYmDCq/uW0AhC0DLYOiRhu1e2VqlApwmh09b22Xe9NbRK9UftKKWao4VwmFhkmZpDL0A==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/compiler': 14.0.2
-      '@angular/core': 14.0.2
-      '@angular/platform-browser': 14.0.2
-      '@angular/platform-browser-dynamic': 14.0.2
+      '@angular/compiler': 14.0.4
+      '@angular/core': 14.0.4
+      '@angular/platform-browser': 14.0.4
+      '@angular/platform-browser-dynamic': 14.0.4
     dependencies:
-      '@angular/compiler': 14.0.2_@angular+core@13.3.1
+      '@angular/compiler': 14.0.4_@angular+core@13.3.1
       '@angular/core': 13.3.1_rxjs@7.5.5
       tslib: 2.3.0
     dev: true
@@ -244,7 +244,7 @@ packages:
   /@babel/helper-module-imports/7.12.5:
     resolution: {integrity: sha512-SR713Ogqg6++uexFRORf/+nPXMmWIn80TALu0uaFb+iQIUoR7bOC7zBWyzBs5b3tBBJXuyD0cRu1F15GyzjOWA==}
     dependencies:
-      '@babel/types': 7.12.12
+      '@babel/types': 7.17.0
     dev: true
 
   /@babel/helper-module-imports/7.16.7:
@@ -450,14 +450,6 @@ packages:
       globals: 11.12.0
     transitivePeerDependencies:
       - supports-color
-    dev: true
-
-  /@babel/types/7.12.12:
-    resolution: {integrity: sha512-lnIX7piTxOH22xE7fDXDbSHg9MM1/6ORnafpJmov5rs0kX5g4BZxeXNJLXsMRiO0U5Rb8/FvMS6xlTnTHvxonQ==}
-    dependencies:
-      '@babel/helper-validator-identifier': 7.16.7
-      lodash: 4.17.21
-      to-fast-properties: 2.0.0
     dev: true
 
   /@babel/types/7.17.0:
@@ -915,7 +907,7 @@ packages:
     dependencies:
       '@types/estree': 0.0.39
       estree-walker: 1.0.1
-      picomatch: 2.2.2
+      picomatch: 2.3.1
       rollup: 2.75.7
     dev: true
 
@@ -4816,7 +4808,7 @@ packages:
   /jsonfile/4.0.0:
     resolution: {integrity: sha512-m6F1R3z8jjlf2imQHS2Qez5sjKWQzbuuhuJ/FKYFRZvPE3PuHcSMVZzfsLhGVOkfd20obL5SWEBew5ShlquNxg==}
     optionalDependencies:
-      graceful-fs: 4.2.6
+      graceful-fs: 4.2.10
     dev: true
 
   /jsonfile/6.1.0:
@@ -5916,11 +5908,6 @@ packages:
 
   /picocolors/1.0.0:
     resolution: {integrity: sha512-1fygroTLlHu66zi26VoTDv8yRgm0Fccecssto+MhsZ0D/DGW2sm8E8AjW7NU5VVTRt5GxbeZ5qBuJr+HyLYkjQ==}
-    dev: true
-
-  /picomatch/2.2.2:
-    resolution: {integrity: sha512-q0M/9eZHzmr0AulXyPwNfZjtwZ/RBZlbN3K3CErVrk50T2ASYI7Bye0EvekFY3IP1Nt2DHu0re+V2ZHIpMkuWg==}
-    engines: {node: '>=8.6'}
     dev: true
 
   /picomatch/2.3.1:
@@ -7348,7 +7335,7 @@ packages:
     dev: true
 
   /to-fast-properties/2.0.0:
-    resolution: {integrity: sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4=}
+    resolution: {integrity: sha512-/OaKK0xYrs3DmxRYqL/yDc+FxFUVYhDlXMhRmv3z915w2HF1tnN1omB354j8VUGO/hbRzyD6Y3sA7v7GS/ceog==}
     engines: {node: '>=4'}
     dev: true
 
