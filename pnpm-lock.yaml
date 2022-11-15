@@ -2,11 +2,11 @@ lockfileVersion: 5.3
 
 specifiers:
   '@angular/common': 13.3.1
-  '@angular/compiler': 14.2.9
-  '@angular/compiler-cli': 14.2.9
+  '@angular/compiler': 14.2.10
+  '@angular/compiler-cli': 14.2.10
   '@angular/core': 13.3.1
-  '@angular/router': 14.2.9
-  '@angular/upgrade': 14.2.9
+  '@angular/router': 14.2.10
+  '@angular/upgrade': 14.2.10
   '@rollup/plugin-babel': 6.0.2
   concurrently: 7.5.0
   esm-bundle-scripts: 1.2.0
@@ -27,11 +27,11 @@ specifiers:
 
 devDependencies:
   '@angular/common': 13.3.1_@angular+core@13.3.1+rxjs@7.5.5
-  '@angular/compiler': 14.2.9_@angular+core@13.3.1
-  '@angular/compiler-cli': 14.2.9_044debebf019302233815a0b01bbf0bf
+  '@angular/compiler': 14.2.10_@angular+core@13.3.1
+  '@angular/compiler-cli': 14.2.10_3143ad1eba9c656d1920041dd3a03329
   '@angular/core': 13.3.1_rxjs@7.5.5
-  '@angular/router': 14.2.9_5b05562fb147aced1f413b82ad7dadf4
-  '@angular/upgrade': 14.2.9_1c7eaa3bd03617841bdde8f35d3705af
+  '@angular/router': 14.2.10_5b05562fb147aced1f413b82ad7dadf4
+  '@angular/upgrade': 14.2.10_9f333f6282b99f0d34853ee0e9069917
   '@rollup/plugin-babel': 6.0.2_rollup@2.79.1
   concurrently: 7.5.0
   esm-bundle-scripts: 1.2.0
@@ -71,15 +71,15 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/compiler-cli/14.2.9_044debebf019302233815a0b01bbf0bf:
-    resolution: {integrity: sha512-c3+LyW4WkZya4JnefUUOoCplwM9OgOnR2LqC6Qwro9Z40VXBqBeA5PJ6EJ28c4q6ZVoy5v00PwUVSwgcGP7qNA==}
+  /@angular/compiler-cli/14.2.10_3143ad1eba9c656d1920041dd3a03329:
+    resolution: {integrity: sha512-1GY1jdHqMpTBapjb0l61vQp0kPo9fryltOwQdm+zElODVFQWl/kvtq1VuMPr+E2qMfNSYg+ffrSixN7nG/E2ww==}
     engines: {node: ^14.15.0 || >=16.10.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 14.2.9
+      '@angular/compiler': 14.2.10
       typescript: '>=4.6.2 <4.9'
     dependencies:
-      '@angular/compiler': 14.2.9_@angular+core@13.3.1
+      '@angular/compiler': 14.2.10_@angular+core@13.3.1
       '@babel/core': 7.17.8
       chokidar: 3.5.1
       convert-source-map: 1.7.0
@@ -95,11 +95,11 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler/14.2.9_@angular+core@13.3.1:
-    resolution: {integrity: sha512-M0uYFMSAejYJ+fm/Lz1/l7nr1adVrYfC7lKBpbiyya5moGenRid81Fl7i2YY6RehFpGHw3GdPlMz+DRIMXgyuQ==}
+  /@angular/compiler/14.2.10_@angular+core@13.3.1:
+    resolution: {integrity: sha512-CvZTJNKCNqU3Lr0La60U3XXZfpQbba/eb5YWTgygpoP0kjwOcNOsVou9TrGm57hT5ODy8281JOjWTrKspmYt5w==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/core': 14.2.9
+      '@angular/core': 14.2.10
     peerDependenciesMeta:
       '@angular/core':
         optional: true
@@ -119,13 +119,13 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/router/14.2.9_5b05562fb147aced1f413b82ad7dadf4:
-    resolution: {integrity: sha512-xg5Ajmn7mt6bosUDDotGzWORMfNGqi1otOUT8Sj2TpkvJebCaOS78GBBMnF8H5zaq8Pi+IsLM46kSJakFGdnVg==}
+  /@angular/router/14.2.10_5b05562fb147aced1f413b82ad7dadf4:
+    resolution: {integrity: sha512-Pnyy+j6WGh+VlvdsfqWCumlwCrYH5HgcJcrvmjhohTf/dtexfwTGmuqFU+6/d4vRugG84xsLH3wIlnW6P7WEXw==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/common': 14.2.9
-      '@angular/core': 14.2.9
-      '@angular/platform-browser': 14.2.9
+      '@angular/common': 14.2.10
+      '@angular/core': 14.2.10
+      '@angular/platform-browser': 14.2.10
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 13.3.1_@angular+core@13.3.1+rxjs@7.5.5
@@ -134,16 +134,16 @@ packages:
       tslib: 2.3.0
     dev: true
 
-  /@angular/upgrade/14.2.9_1c7eaa3bd03617841bdde8f35d3705af:
-    resolution: {integrity: sha512-l4TByIadpjoyGivJd4r995Y4Hom/mN1LrgrVAj2K2N0VG9aDOfDsIBGcV4FT6yExnh2Fxziibz5mh+2jUKcR6g==}
+  /@angular/upgrade/14.2.10_9f333f6282b99f0d34853ee0e9069917:
+    resolution: {integrity: sha512-8mK52MKNCSDio6c3cL6nvrPjOBsKKKtRVNbsl1KDfIveqVOb9iAE9Ky2duYjp55RkZ5dppqowZ83VpT70suvWw==}
     engines: {node: ^14.15.0 || >=16.10.0}
     peerDependencies:
-      '@angular/compiler': 14.2.9
-      '@angular/core': 14.2.9
-      '@angular/platform-browser': 14.2.9
-      '@angular/platform-browser-dynamic': 14.2.9
+      '@angular/compiler': 14.2.10
+      '@angular/core': 14.2.10
+      '@angular/platform-browser': 14.2.10
+      '@angular/platform-browser-dynamic': 14.2.10
     dependencies:
-      '@angular/compiler': 14.2.9_@angular+core@13.3.1
+      '@angular/compiler': 14.2.10_@angular+core@13.3.1
       '@angular/core': 13.3.1_rxjs@7.5.5
       tslib: 2.3.0
     dev: true
