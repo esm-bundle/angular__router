@@ -7,7 +7,7 @@ specifiers:
   '@angular/core': 13.3.1
   '@angular/router': 15.0.0
   '@angular/upgrade': 15.0.0
-  '@rollup/plugin-babel': 6.0.2
+  '@rollup/plugin-babel': 6.0.3
   concurrently: 7.6.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.2
@@ -32,7 +32,7 @@ devDependencies:
   '@angular/core': 13.3.1_rxjs@7.5.5
   '@angular/router': 15.0.0_5b05562fb147aced1f413b82ad7dadf4
   '@angular/upgrade': 15.0.0_14b20f7b60bbc6afdb86a6ba469172bb
-  '@rollup/plugin-babel': 6.0.2_rollup@2.79.1
+  '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
   concurrently: 7.6.0
   esm-bundle-scripts: 1.2.0
   husky: 8.0.2
@@ -958,8 +958,8 @@ packages:
       config-chain: 1.1.13
     dev: true
 
-  /@rollup/plugin-babel/6.0.2_rollup@2.79.1:
-    resolution: {integrity: sha512-Vnt8XIWYwCf3MD7qhBWYlP9pjSZvcE++nlPXhQYw6YNehl5742AzFbrV6h4BHb20VAOVUlIksVLymQCTwVCGDg==}
+  /@rollup/plugin-babel/6.0.3_rollup@2.79.1:
+    resolution: {integrity: sha512-fKImZKppa1A/gX73eg4JGo+8kQr/q1HBQaCGKECZ0v4YBBv3lFqi14+7xyApECzvkLTHCifx+7ntcrvtBIRcpg==}
     engines: {node: '>=14.0.0'}
     peerDependencies:
       '@babel/core': ^7.0.0
