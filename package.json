@@ -1,6 +1,6 @@
 {
   "name": "@esm-bundle/angular__router",
-  "version": "15.1.1",
+  "version": "15.1.2",
   "description": "ESM and SystemJS bundles for @angular/router",
   "type": "module",
   "exports": {
