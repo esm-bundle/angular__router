@@ -2,7 +2,7 @@ import fs from "fs";
 import url from "url";
 import path from "path";
 import { babel } from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
+import terser from "@rollup/plugin-terser";
 import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
 import {
   ConsoleLogger,
@@ -14,9 +14,9 @@ const __dirname = new url.URL(".", import.meta.url).pathname;
 const packageJson = JSON.parse(
   fs
     .readFileSync(
-      path.resolve(__dirname, "node_modules/@angular/router/package.json")
+      path.resolve(__dirname, "node_modules/@angular/router/package.json"),
     )
-    .toString()
+    .toString(),
 );
 
 /** File system used by the Angular linker plugin. */
@@ -33,7 +33,7 @@ const linkerPlugin = createEs2015LinkerPlugin({
   linkerJitMode: false,
 });
 
-const packages = ["2015", "2020"]
+const packages = ["2022"]
   .map((ecma) => [
     {
       ecma,
@@ -69,13 +69,29 @@ export default packages
   ])
   .flat();
 
+function terserConfig(ecma, devMode) {
+  return terser({
+    format: {
+      ecma,
+      comments: /esm-bundle/,
+    },
+    compress: {
+      global_defs: {
+        ngJitMode: false,
+        ngDevMode: devMode,
+        ngI18nClosureMode: false,
+      },
+    },
+  });
+}
+
 function createConfig({ ecma, prod, format, angularPackage, filename }) {
   const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
 
   return {
     input: path.join(
       __dirname,
-      `node_modules/@angular/router/fesm${ecma}/${filename}.mjs`
+      `node_modules/@angular/router/fesm${ecma}/${filename}.mjs`,
     ),
     output: {
       file: `${dir}/angular-${filename}.${prod ? "min." : ""}js`,
@@ -85,26 +101,16 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
     },
     plugins: [
       babel({ plugins: [linkerPlugin] }),
-      prod &&
-        terser({
-          format: {
-            ecma,
-            comments: /esm-bundle/,
-          },
-          compress: {
-            global_defs: {
-              ngJitMode: false,
-              ngDevMode: false,
-              ngI18nClosureMode: false,
-            },
-          },
-        }),
+      prod
+        ? prod && terserConfig(ecma, false)
+        : !prod && terserConfig(ecma, true),
     ],
     external: [
       "rxjs",
       "rxjs/operators",
       "@angular/core",
       "@angular/common",
+      "@angular/platform-browser",
       "@angular/router",
       "@angular/upgrade/static",
     ],

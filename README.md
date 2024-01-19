@@ -12,47 +12,27 @@ A repo that tests automatic detection of upstream publishes and the publishing o
 
 ### @angular/upgrade
 
-#### ES2015
+#### ES2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-upgrade.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-upgrade.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-upgrade.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-upgrade.min.js
 
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-upgrade.js
+https://unpkg.com/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-upgrade.js
 
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-upgrade.min.js
-
-#### ES2020
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-upgrade.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-upgrade.min.js
-
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-upgrade.js
-
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-upgrade.min.js
+https://unpkg.com/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-upgrade.min.js
 
 ### @angular/upgrade/static
 
-#### ES2015
+#### ES2022
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-static.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-static.js
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-static.min.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-static.min.js
 
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-static.js
+https://unpkg.com/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-static.js
 
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2015/ivy/angular-static.min.js
-
-#### ES2020
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-static.js
-
-https://cdn.jsdelivr.net/npm/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-static.min.js
-
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-static.js
-
-https://unpkg.com/@esm-bundle/angular__upgrade/system/es2020/ivy/angular-static.min.js
+https://unpkg.com/@esm-bundle/angular__upgrade/system/es2022/ivy/angular-static.min.js
 
 ## Specific Version
 
