@@ -32,6 +32,9 @@ devDependencies:
   '@rollup/plugin-terser':
     specifier: 0.4.4
     version: 0.4.4(rollup@3.29.4)
+  babel-plugin-global-define:
+    specifier: 1.0.3
+    version: 1.0.3
   concurrently:
     specifier: 8.2.2
     version: 8.2.2
@@ -1835,6 +1838,11 @@ packages:
       slash: 3.0.0
     transitivePeerDependencies:
       - supports-color
+    dev: true
+
+  /babel-plugin-global-define@1.0.3:
+    resolution: {integrity: sha512-M8Sby4wRLuLr+9UB8V31knVRf/rl0xkk51A7um6hUCvVPyOvLtI0u0k1OPiMgE2d7CwmeSa33NzGpaALHPQCPg==}
+    engines: {node: '>= 6.x.x'}
     dev: true
 
   /babel-plugin-istanbul@6.0.0:

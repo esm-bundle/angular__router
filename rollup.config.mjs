@@ -69,22 +69,6 @@ export default packages
   ])
   .flat();
 
-function terserConfig(ecma, devMode) {
-  return terser({
-    format: {
-      ecma,
-      comments: /esm-bundle/,
-    },
-    compress: {
-      global_defs: {
-        ngJitMode: false,
-        ngDevMode: devMode,
-        ngI18nClosureMode: false,
-      },
-    },
-  });
-}
-
 function createConfig({ ecma, prod, format, angularPackage, filename }) {
   const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
 
@@ -100,10 +84,25 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
       banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - Ivy - ${format} format - es${ecma} - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
-      babel({ plugins: [linkerPlugin] }),
       prod
-        ? prod && terserConfig(ecma, false)
-        : !prod && terserConfig(ecma, true),
+        ? babel({ plugins: [linkerPlugin] })
+        : babel({
+            plugins: [linkerPlugin, ["global-define", { ngDevMode: true }]],
+          }),
+      prod &&
+        terser({
+          format: {
+            ecma,
+            comments: /esm-bundle/,
+          },
+          compress: {
+            global_defs: {
+              ngJitMode: false,
+              ngDevMode: false,
+              ngI18nClosureMode: false,
+            },
+          },
+        }),
     ],
     external: [
       "rxjs",
