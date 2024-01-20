@@ -1,0 +1,93 @@
+diff --git a/.idea/76d2dd4c8c053b0cd019e15579eedbb0.iml b/.idea/76d2dd4c8c053b0cd019e15579eedbb0.iml
+new file mode 100644
+index 0000000000000000000000000000000000000000..d6ebd4805981b8400db3e3291c74a743fef9a824
+--- /dev/null
++++ b/.idea/76d2dd4c8c053b0cd019e15579eedbb0.iml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="JAVA_MODULE" version="4">
++  <component name="NewModuleRootManager" inherit-compiler-output="true">
++    <exclude-output />
++    <content url="file://$MODULE_DIR$" />
++    <orderEntry type="inheritedJdk" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+diff --git a/.idea/jpa-buddy.xml b/.idea/jpa-buddy.xml
+new file mode 100644
+index 0000000000000000000000000000000000000000..966d5f56a99523a01d4ba0a48fa95c4a881d44ac
+--- /dev/null
++++ b/.idea/jpa-buddy.xml
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="JpaBuddyIdeaProjectConfig">
++    <option name="renamerInitialized" value="true" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+index 0000000000000000000000000000000000000000..d79bd4e1c585c8781a23f673b649183705980788
+--- /dev/null
++++ b/.idea/misc.xml
+@@ -0,0 +1,9 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectRootManager">
++    <output url="file://$PROJECT_DIR$/out" />
++  </component>
++  <component name="ProjectType">
++    <option name="id" value="jpab" />
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+index 0000000000000000000000000000000000000000..5122117ae245920e9b7d89dc0b83879568af94dd
+--- /dev/null
++++ b/.idea/modules.xml
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/76d2dd4c8c053b0cd019e15579eedbb0.iml" filepath="$PROJECT_DIR$/.idea/76d2dd4c8c053b0cd019e15579eedbb0.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+diff --git a/fesm2022/router.mjs b/fesm2022/router.mjs
+index a900be9b171d9159ead8a782f6b87ddd37c72ca0..43eb88c23c67b8d1d972e8368caa046aa1d10fca 100755
+--- a/fesm2022/router.mjs
++++ b/fesm2022/router.mjs
+@@ -3881,7 +3881,7 @@ class Recognizer {
+         if (route.redirectTo.startsWith('/')) {
+             this.absoluteRedirectCount++;
+             if (this.absoluteRedirectCount > MAX_ALLOWED_REDIRECTS) {
+-                if (ngDevMode) {
++                if (typeof ngDevMode !== 'undefined' && ngDevMode) {
+                     throw new ɵRuntimeError(4016 /* RuntimeErrorCode.INFINITE_REDIRECT */, `Detected possible infinite redirect when redirecting from '${this.urlTree}' to '${route.redirectTo}'.\n` +
+                         `This is currently a dev mode only error but will become a` +
+                         ` call stack size exceeded error in production in a future major version.`);
+@@ -4381,8 +4381,8 @@ i0.ɵɵngDeclareClassMetadata({ minVersion: "12.0.0", version: "17.1.0", ngImpor
+         }] });
+ 
+ /// <reference types="@types/dom-view-transitions" />
+-const CREATE_VIEW_TRANSITION = new InjectionToken(ngDevMode ? 'view transition helper' : '');
+-const VIEW_TRANSITION_OPTIONS = new InjectionToken(ngDevMode ? 'view transition options' : '');
++const CREATE_VIEW_TRANSITION = new InjectionToken((typeof ngDevMode !== 'undefined' && ngDevMode) ? 'view transition helper' : '');
++const VIEW_TRANSITION_OPTIONS = new InjectionToken((typeof ngDevMode !== 'undefined' && ngDevMode) ? 'view transition options' : '');
+ /**
+  * A helper function for using browser view transitions. This function skips the call to
+  * `startViewTransition` if the browser does not support it.
+@@ -5221,7 +5221,7 @@ class Router {
+         this.navigationTransitions.setupNavigations(this, this.currentUrlTree, this.routerState)
+             .subscribe({
+             error: (e) => {
+-                this.console.warn(ngDevMode ? `Unhandled Navigation Error: ${e}` : e);
++                this.console.warn(typeof ngDevMode !== 'undefined' && ngDevMode ? `Unhandled Navigation Error: ${e}` : e);
+             }
+         });
+         this.subscribeToNavigationEvents();

@@ -84,11 +84,7 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
       banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - Ivy - ${format} format - es${ecma} - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
-      prod
-        ? babel({ plugins: [linkerPlugin] })
-        : babel({
-            plugins: [linkerPlugin, ["global-define", { ngDevMode: true }]],
-          }),
+      babel({ plugins: [linkerPlugin] }),
       prod &&
         terser({
           format: {
